@@ -1,0 +1,42 @@
+# git config --global user.name [user-name] :- set user name
+# git config --global user.email [email-id] :- set email id
+# git init :- check uninitialized file
+# ls -lart :- view all hide files & folders
+# git status :- view git status
+# git add [file-name] :- add  the files
+# git add -A :- add all files
+# git commit :- commit your file
+# git commit -m "your-commit" :- directly commit your file
+# git checkout [modify-file-name] :- recovered your file last commit
+# git checkout -f :- all files are recovering from last commit
+# git log :- get your commit history
+# git log -p -[number-of-saw-commit] :- filter your commit
+# git diff :- compear woarking to stageing diractory
+# git diff --staged :- compear last commit stageing file
+# git commit -a -m "commit" :- all file add then commit (skip staged Aria)
+# git rm [file-name] :- remov file directory or git
+# git rm --cached [file-name] :- remove staged from git
+# git status -s :- see sorted git status
+# touch .gitignore :- write your git ignore file name
+-> [myignorefile.extension] :- ignore all file from directory
+-> [/myignorefile.extension] :- ignore all file from only root directory
+-> [*.extension] :- ignore all file from there .extension is same
+-> [directory/] :- ignore all directory
+
+# git branch :- see present branch from directory
+# git branch [branch-name] :- make new branch
+# git checkout [branch-name] :- Switched to branch
+# git mearg [merge-branch-name] :- mearg branch
+# git checkout -b [branch-name] :- create branch and direct Switched to branch
+# git remote [remote-name] [remote-url] :- add remote origin
+# git remote :- gat all listed remote
+# git remote -v :- gat remote fetch and push urls
+# git push:- push your code on GitHub local branch
+# git push [remote-name] [branch-name]:- push your code on GitHub branch
+# git push -u [remote-name] [branch-name]:- push your code on GitHub branch in master Branch
+# git remote set-url [remote-name] [remote-url] :- set new remote url
+# git clone [clone-url] [clone-folder-name] :- clone new folder
+# git clone [clone-url] :- clone this folder
+# git pull [remote-name] [branch-name] :- all pull request update
+# git branch -d [branch-name] :- delete branch from your computer
+# git push [remote-name] --delete [branch-name] :- delete branch from remote directory

@@ -1,0 +1,3 @@
+do or die
+3
+die
