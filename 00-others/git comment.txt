@@ -1,16 +1,28 @@
 # git config --global user.name [user-name] :- set user name
 # git config --global user.email [email-id] :- set email id
+# git config --global core.editor [editor-name] :- set editor
 # git init :- check uninitialized file
 # ls -lart :- view all hide files & folders
 # git status :- view git status
 # git add [file-name] :- add  the files
-# git add -A :- add all files
+# git add -A :- add all stageing files
+# git add --a :- add all stageing files
+# git add . :- add all stageing files
 # git commit :- commit your file
 # git commit -m "your-commit" :- directly commit your file
+# git commit --amend :- change previous commit
 # git checkout [modify-file-name] :- recovered your file last commit
 # git checkout -f :- all files are recovering from last commit
 # git log :- get your commit history
 # git log -p -[number-of-saw-commit] :- filter your commit
+# git log -p :- what change in Git commit
+# git log --pretty=oneline :- one line see git log
+# git log --pretty=short :- short line see git log
+# git log --pretty=full :- short then more line see git log
+# git log --since=[number-of-days].days :- filler log using date
+# git log --since=[number-of-weeks].weeks :- filler log using weeks
+# git log --since=[number-of-months].months :- filler log using month
+# git log --since=[number-of-years].years :- filler log using years
 # git diff :- compear woarking to stageing diractory
 # git diff --staged :- compear last commit stageing file
 # git commit -a -m "commit" :- all file add then commit (skip staged Aria)
@@ -22,6 +34,7 @@
 -> [/myignorefile.extension] :- ignore all file from only root directory
 -> [*.extension] :- ignore all file from there .extension is same
 -> [directory/] :- ignore all directory
+-> [/directory/] :- ignore outer directory
 
 # git branch :- see present branch from directory
 # git branch [branch-name] :- make new branch
@@ -40,3 +53,7 @@
 # git pull [remote-name] [branch-name] :- all pull request update
 # git branch -d [branch-name] :- delete branch from your computer
 # git push [remote-name] --delete [branch-name] :- delete branch from remote directory
+# git config --list :- git configuration list
+# rm -rf .git :- delete git database and git file
+# git mv [old-location] [new-locatio ] :- rename file and move
+
