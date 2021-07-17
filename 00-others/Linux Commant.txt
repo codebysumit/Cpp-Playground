@@ -1,0 +1,56 @@
+1.  apt-get update && apt-get  upgrade :- Get updated linux
+2. apt-get update && apt-get full-upgrade
+3. ifconfig :- configuration check
+4. ping <ip address> :- send small pkg from server to server
+5. unane :- get user name
+6. unane -r :- get recursive details
+7. unane -a :- get all details
+8. history :- get history all using command
+9. clear :- clear screen
+10. cd :- catch directly
+11. ls -l <file name> :- file permission sow
+       r=read, w=write, x=excited.
+       -rwxr-xr-x
+       admin:- rwx 4+2+1=7
+       group:- rw 4+2=6
+       public:- r 4=4
+
+       1. execute
+       2. write
+       4. read
+11. chmod <admin group public> <file name> :- Change permission of file
+12. pwd :- present warming directory
+13. ls :- sow all list directory or fill
+14. ls -lart :- sow hidden and mode all items
+15. cd .. :- back directory
+16. cd / :- root directory
+17. cd ~ || cd :- user directory
+18. mkdir <directory name> :- make new directory
+19. man <command_name> :- sow command manual
+20. rmdir <directory name> :- remove directory
+21. touch <file name> :- make blank file : 
+22. rm <file name> : remove file
+23. mv <name> : move directory or file
+24. cp <file name> : copy file
+25. cp -r <directory name> : copy directory
+26. ls -r : recursion access
+27. ls -a : all file access
+28. .hidden : hidden file
+29. clear : clear terminal
+30. history : get history of command
+31. echo print text : print on display
+32. printf "text" 
+33. top : get used top recourse
+34. ps : get possess
+35. ps -a
+36. kill <PID> : Kill the program
+37. adduser <username> :- add a new user to your system
+38. usermod -aG sudo <username> :- command to add the user to the sudo group
+39. su - <username> :- switch to the new user account
+40. visudo :- opens the appropriate configuration file in your editor
+           root    ALL=(ALL:ALL) ALL
+           <newuser> ALL=(ALL:ALL) ALL
+           
+40. deluser [newuser] :- delete the user
+41. deluser --remove-home [newuser] :- delete the user’s home directory when the user is deleted
+42. mv "old location" "new location" :- rename file or folder

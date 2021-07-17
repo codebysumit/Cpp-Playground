@@ -56,4 +56,4 @@
 # git config --list :- git configuration list
 # rm -rf .git :- delete git database and git file
 # git mv [old-location] [new-locatio ] :- rename file and move
-
+# git checkout -- [modify-file-name] :- unmodify file
