@@ -54,3 +54,4 @@
 40. deluser [newuser] :- delete the user
 41. deluser --remove-home [newuser] :- delete the user’s home directory when the user is deleted
 42. mv "old location" "new location" :- rename file or folder
+43. ncdu : get file size
